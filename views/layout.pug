@@ -1,0 +1,37 @@
+doctype html
+html
+    head
+        title= title
+        meta(name="viewport" content="width=device-width, initial-scale=1")
+        link(rel='stylesheet' href='/bower_components/bootstrap/dist/css/bootstrap.css')
+        link(rel='stylesheet' href='/css/style.css')
+    body
+        nav.navbar.navbar-expand-md.navbar-dark.bg-dark
+            a.navbar-brand(href='/') FooBlog
+            button.navbar-toggler(type='button', data-toggle='collapse', data-target='#navbarsExampleDefault', aria-controls='navbarsExampleDefault', aria-expanded='false', aria-label='Toggle navigation')
+                span.navbar-toggler-icon
+            #navbar.collapse.navbar-collapse
+                ul.navbar-nav.mr-auto
+                    li.nav-item
+                        a.nav-link(href='/')
+                            | Home
+                            span.sr-only (current)
+                ul.navbar-nav.navbar-right
+                    li.nav-item
+                        li.nav-item Login
+
+        .container
+            br
+            != messages('message', locals)
+            if errors
+                each error, i in errors
+                    div(class="alert alert-danger") #{error.msg}
+            block content
+            br
+            hr
+            div.float-none
+                footer
+                    p Copyright &copy; 2018
+        script(src='/bower_components/jquery/dist/jquery.js')
+        script(src='/bower_components/bootstrap/dist/js/bootstrap.js')
+        script(src='/js/main.js')
