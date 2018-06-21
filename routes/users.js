@@ -1,9 +1,15 @@
 const express = require('express');
-const passport = require('passport');
-const loginController = require('../controllers/loginController.js');
+const loginController = require('../controllers/userController.js');
 const router = express.Router();
 
-/* GET users listing. */
+// GET register page
+router.get('/register', (req, res) => {
+	res.render('register', {
+		title: 'Register'
+	});
+});
+
+/* register a new user. */
 router.post('/register', function(req, res, next) {
 	loginController.register(req, res, next);
 });
@@ -15,11 +21,7 @@ router.get('/login', (req, res) => {
 
 //login process
 router.post('/login', (req, res, next) => {
-	passport.authenticate('local', {
-		successRedirect:'/',
-		failureRedirect:'/users/login',
-		failureFlash: true
-	})(req, res, next);
+	loginController.login(req, res, next);
 });
 
 // logout

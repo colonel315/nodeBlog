@@ -26,7 +26,7 @@ db.on('error', (err) => {
 	console.log(err);
 });
 
-let app = express();
+const app = express();
 
 /**
  * Middleware set ups
