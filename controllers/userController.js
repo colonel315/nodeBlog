@@ -1,6 +1,8 @@
 const bcrypt = require('bcryptjs');
-const regex = require('regex');
-let User = require('../models/user'); // Bring in Article Model
+const passport = require('passport');
+let User = require('../models/user'); // Bring in User Model
+let validation = require('../models/validationSchema');
+let registrationSchema = validation.registrationSchema;
 
 module.exports = {
 	register: function(req, res, next) {
@@ -19,12 +21,8 @@ module.exports = {
 		const username = req.body.username;
 		const password = req.body.password;
 
-		// req.checkBody('fname', 'First name is required').notEmpty();
-		// req.checkBody('lname', 'Last name is required').notEmpty();
-		// req.checkBody('email', 'Email name is required').notEmpty();
-		// req.checkBody('email', 'Email is not valid').isEmail();
-		// req.checkBody('username', 'Username is required').notEmpty();
-		// req.checkBody('password', 'Password is required').notEmpty();
+		// validates each field using the registrationSchema
+		req.checkBody(registrationSchema);
 		req.checkBody('password2', 'Passwords do not match').equals(req.body.password);
 
 		let errors = req.validationErrors();
