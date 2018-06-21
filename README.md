@@ -1,5 +1,6 @@
 # nodeBlog
 Creating a social media account using nodejs, expressjs, and pugjs.
+<<<<<<< HEAD
 
 # Modules included:
 
@@ -41,3 +42,5 @@ When creating a new user the password has to be at least
 6 character longs and must be alphanumeric.
 
 Username and email must be unique
+=======
+>>>>>>> c27971316043a0c6a6dc299ef355732c12ba02aa
