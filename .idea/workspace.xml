@@ -2,319 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b745a59a-c2c3-4446-bbf2-21d8474655a3" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controllers/postController.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/posts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/userIndex.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/message.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/userController.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/userController.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/models/post.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/post.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.bin/escodegen" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.bin/escodegen.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.bin/esgenerate" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.bin/esgenerate.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.bin/esparse" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.bin/esparse.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.bin/esvalidate" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.bin/esvalidate.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.bin/jison" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.bin/jison-lex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.bin/jison-lex.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.bin/jison.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/JSONSelect/.gitmodules" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/JSONSelect/.npmignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/JSONSelect/JSONSelect.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/JSONSelect/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/JSONSelect/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/JSONSelect/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/JSONSelect/site/css/droid_sans.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/JSONSelect/site/css/droid_sans.tt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/JSONSelect/site/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/JSONSelect/site/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/JSONSelect/site/js/demo.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/JSONSelect/site/js/jquery-1.6.1.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/JSONSelect/site/js/jquery.ba-hashchange.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/JSONSelect/site/js/json2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/JSONSelect/site/js/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/JSONSelect/site/js/nav.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/JSONSelect/site/js/showdown.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/JSONSelect/src/Makefile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/JSONSelect/src/build/jshint-check.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/JSONSelect/src/build/lib/jshint.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/JSONSelect/src/build/lib/jslint.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/JSONSelect/src/build/lib/parse-js.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/JSONSelect/src/build/lib/process.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/JSONSelect/src/build/lib/squeeze-more.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/JSONSelect/src/build/post-compile.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/JSONSelect/src/build/uglify.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/JSONSelect/src/dist/jsonselect.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/JSONSelect/src/dist/jsonselect.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/JSONSelect/src/dist/jsonselect.min.js.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/JSONSelect/src/jsonselect.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/JSONSelect/src/test/conformance_tests.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/JSONSelect/src/test/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/JSONSelect/src/test/js/conf_tests.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/JSONSelect/src/test/js/doctest.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/JSONSelect/src/test/js/doctest.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/JSONSelect/src/test/js/jquery-1.6.1.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/JSONSelect/src/test/lex_test.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/JSONSelect/src/test/match_test.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/JSONSelect/src/test/parse_test.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/JSONSelect/src/test/run.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/JSONSelect/src/test/tests/.npmignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/JSONSelect/src/test/tests/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/JSONSelect/src/test/tests/level_1/basic.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/JSONSelect/src/test/tests/level_1/basic_first-child.output" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/JSONSelect/src/test/tests/level_1/basic_first-child.selector" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/JSONSelect/src/test/tests/level_1/basic_grouping.output" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/JSONSelect/src/test/tests/level_1/basic_grouping.selector" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/JSONSelect/src/test/tests/level_1/basic_id.output" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/JSONSelect/src/test/tests/level_1/basic_id.selector" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/JSONSelect/src/test/tests/level_1/basic_id_multiple.output" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/JSONSelect/src/test/tests/level_1/basic_id_multiple.selector" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/JSONSelect/src/test/tests/level_1/basic_id_quotes.output" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/JSONSelect/src/test/tests/level_1/basic_id_quotes.selector" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/JSONSelect/src/test/tests/level_1/basic_id_with_type.output" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/JSONSelect/src/test/tests/level_1/basic_id_with_type.selector" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/JSONSelect/src/test/tests/level_1/basic_last-child.output" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/JSONSelect/src/test/tests/level_1/basic_last-child.selector" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/JSONSelect/src/test/tests/level_1/basic_nth-child-2.output" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/JSONSelect/src/test/tests/level_1/basic_nth-child-2.selector" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/JSONSelect/src/test/tests/level_1/basic_nth-child.output" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/JSONSelect/src/test/tests/level_1/basic_nth-child.selector" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/JSONSelect/src/test/tests/level_1/basic_nth-last-child.output" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/JSONSelect/src/test/tests/level_1/basic_nth-last-child.selector" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/JSONSelect/src/test/tests/level_1/basic_root_pseudo.output" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/JSONSelect/src/test/tests/level_1/basic_root_pseudo.selector" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/JSONSelect/src/test/tests/level_1/basic_type.output" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/JSONSelect/src/test/tests/level_1/basic_type.selector" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/JSONSelect/src/test/tests/level_1/basic_type2.output" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/JSONSelect/src/test/tests/level_1/basic_type2.selector" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/JSONSelect/src/test/tests/level_1/basic_type3.output" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/JSONSelect/src/test/tests/level_1/basic_type3.selector" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/JSONSelect/src/test/tests/level_1/basic_universal.output" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/JSONSelect/src/test/tests/level_1/basic_universal.selector" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/JSONSelect/src/test/tests/level_1/collision.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/JSONSelect/src/test/tests/level_1/collision_nested.output" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/JSONSelect/src/test/tests/level_1/collision_nested.selector" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/JSONSelect/src/test/tests/level_1/collision_quoted-string.output" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/JSONSelect/src/test/tests/level_1/collision_quoted-string.selector" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/JSONSelect/src/test/tests/level_1/collision_string.output" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/JSONSelect/src/test/tests/level_1/collision_string.selector" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/JSONSelect/src/test/tests/level_2/sibling.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/JSONSelect/src/test/tests/level_2/sibling_childof.output" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/JSONSelect/src/test/tests/level_2/sibling_childof.selector" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/JSONSelect/src/test/tests/level_2/sibling_descendantof.output" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/JSONSelect/src/test/tests/level_2/sibling_descendantof.selector" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/JSONSelect/src/test/tests/level_2/sibling_unrooted.output" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/JSONSelect/src/test/tests/level_2/sibling_unrooted.selector" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/JSONSelect/src/test/tests/level_3/basic.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/JSONSelect/src/test/tests/level_3/basic_has-multiple.output" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/JSONSelect/src/test/tests/level_3/basic_has-multiple.selector" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/JSONSelect/src/test/tests/level_3/basic_has-root-in-expr.output" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/JSONSelect/src/test/tests/level_3/basic_has-root-in-expr.selector" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/JSONSelect/src/test/tests/level_3/basic_has-sans-first-paren.output" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/JSONSelect/src/test/tests/level_3/basic_has-sans-first-paren.selector" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/JSONSelect/src/test/tests/level_3/basic_has-sans-paren.output" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/JSONSelect/src/test/tests/level_3/basic_has-sans-paren.selector" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/JSONSelect/src/test/tests/level_3/basic_has-whitespace.output" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/JSONSelect/src/test/tests/level_3/basic_has-whitespace.selector" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/JSONSelect/src/test/tests/level_3/basic_has-with-comma.output" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/JSONSelect/src/test/tests/level_3/basic_has-with-comma.selector" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/JSONSelect/src/test/tests/level_3/basic_has.output" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/JSONSelect/src/test/tests/level_3/basic_has.selector" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/JSONSelect/src/test/tests/level_3/basic_multiple-has-with-strings.output" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/JSONSelect/src/test/tests/level_3/basic_multiple-has-with-strings.selector" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/JSONSelect/src/test/tests/level_3/expr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/JSONSelect/src/test/tests/level_3/expr_div.output" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/JSONSelect/src/test/tests/level_3/expr_div.selector" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/JSONSelect/src/test/tests/level_3/expr_ends-with.output" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/JSONSelect/src/test/tests/level_3/expr_ends-with.selector" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/JSONSelect/src/test/tests/level_3/expr_false-eq.output" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/JSONSelect/src/test/tests/level_3/expr_false-eq.selector" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/JSONSelect/src/test/tests/level_3/expr_greater-than.output" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/JSONSelect/src/test/tests/level_3/expr_greater-than.selector" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/JSONSelect/src/test/tests/level_3/expr_less-than.output" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/JSONSelect/src/test/tests/level_3/expr_less-than.selector" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/JSONSelect/src/test/tests/level_3/expr_mod.output" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/JSONSelect/src/test/tests/level_3/expr_mod.selector" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/JSONSelect/src/test/tests/level_3/expr_mult.output" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/JSONSelect/src/test/tests/level_3/expr_mult.selector" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/JSONSelect/src/test/tests/level_3/expr_null-eq.output" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/JSONSelect/src/test/tests/level_3/expr_null-eq.selector" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/JSONSelect/src/test/tests/level_3/expr_number-eq.output" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/JSONSelect/src/test/tests/level_3/expr_number-eq.selector" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/JSONSelect/src/test/tests/level_3/expr_precedence-1.output" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/JSONSelect/src/test/tests/level_3/expr_precedence-1.selector" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/JSONSelect/src/test/tests/level_3/expr_precedence-2.output" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/JSONSelect/src/test/tests/level_3/expr_precedence-2.selector" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/JSONSelect/src/test/tests/level_3/expr_simple-false.output" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/JSONSelect/src/test/tests/level_3/expr_simple-false.selector" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/JSONSelect/src/test/tests/level_3/expr_simple.output" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/JSONSelect/src/test/tests/level_3/expr_simple.selector" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/JSONSelect/src/test/tests/level_3/expr_starts-with.output" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/JSONSelect/src/test/tests/level_3/expr_starts-with.selector" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/JSONSelect/src/test/tests/level_3/expr_string-eq.output" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/JSONSelect/src/test/tests/level_3/expr_string-eq.selector" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/JSONSelect/src/test/tests/level_3/expr_true-eq.output" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/JSONSelect/src/test/tests/level_3/expr_true-eq.selector" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/JSONSelect/src/test/tests/level_3/polykids.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/JSONSelect/src/test/tests/level_3/polykids_has-with_descendant.output" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/JSONSelect/src/test/tests/level_3/polykids_has-with_descendant.selector" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/JSONSelect/src/test/tests/level_3/polykids_val.output" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/JSONSelect/src/test/tests/level_3/polykids_val.selector" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/augment/.npmignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/augment/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/augment/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/augment/component.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/augment/lib/augment.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/augment/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/colors/MIT-LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/colors/ReadMe.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/colors/colors.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/colors/example.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/colors/example.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/colors/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ebnf-parser/.npmignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ebnf-parser/Makefile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ebnf-parser/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ebnf-parser/bnf.l" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ebnf-parser/bnf.y" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ebnf-parser/ebnf-parser.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ebnf-parser/ebnf-transform.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ebnf-parser/ebnf.y" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ebnf-parser/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ebnf-parser/parser.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ebnf-parser/tests/all-tests.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ebnf-parser/tests/bnf.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ebnf-parser/tests/bnf_parse.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ebnf-parser/tests/ebnf.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ebnf-parser/tests/ebnf_parse.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ebnf-parser/transform-parser.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/escodegen/LICENSE.BSD" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/escodegen/LICENSE.source-map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/escodegen/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/escodegen/bin/escodegen.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/escodegen/bin/esgenerate.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/escodegen/component.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/escodegen/escodegen.browser.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/escodegen/escodegen.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/escodegen/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/esprima/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/esprima/bin/esparse.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/esprima/bin/esvalidate.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/esprima/esprima.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/esprima/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/esprima/test/compat.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/esprima/test/reflect.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/esprima/test/run.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/esprima/test/runner.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/esprima/test/test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/estraverse/LICENSE.BSD" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/estraverse/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/estraverse/estraverse.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/estraverse/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jison-lex/.npmignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jison-lex/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jison-lex/cli.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jison-lex/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jison-lex/regexp-lexer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jison-lex/tests/all-tests.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jison-lex/tests/regexplexer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jison/.npmignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jison/.travis.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jison/Makefile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jison/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jison/entry.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jison/lib/cli.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jison/lib/jison.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jison/lib/util/set.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jison/lib/util/typal.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jison/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jison/tests/all-tests.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jison/tests/parser/actions.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jison/tests/parser/api.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jison/tests/parser/errorlab.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jison/tests/parser/generator.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jison/tests/parser/lalr.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jison/tests/parser/lr0.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jison/tests/parser/lr1.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jison/tests/parser/parser-tests.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jison/tests/parser/precedence.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jison/tests/parser/slr.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jison/tests/parser/tables.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jison/tests/performance.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jison/tests/setup.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/lex-parser/.npmignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/lex-parser/Makefile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/lex-parser/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/lex-parser/lex-parser.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/lex-parser/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/lex-parser/tests/all-tests.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/lex-parser/tests/lex/ansic.jisonlex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/lex-parser/tests/lex/bnf.jisonlex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/lex-parser/tests/lex/bnf.lex.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/lex-parser/tests/lex/lex_grammar.jisonlex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/lex-parser/tests/lex/lex_grammar.lex.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/lex/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/lex/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/lex/component.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/lex/lib/lexer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/lex/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/nomnom/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/nomnom/nomnom.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/nomnom/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/nomnom/test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/nomnom/test/callback.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/nomnom/test/commands.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/nomnom/test/expected.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/nomnom/test/matching.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/nomnom/test/option.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/nomnom/test/usage.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/nomnom/test/values.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/regex/.npmignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/regex/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/regex/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/regex/component.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/regex/lib/parse.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/regex/lib/parsexp.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/regex/lib/regex.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/regex/lib/reglex.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/regex/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/regex/tests/regex.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/sorted-array/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/sorted-array/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/sorted-array/component.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/sorted-array/lib/sorted-array.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/sorted-array/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/statemachines/.npmignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/statemachines/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/statemachines/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/statemachines/component.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/statemachines/dfa.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/statemachines/lib/statemachines.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/statemachines/nfa.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/statemachines/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/statemachines/tests/nfa.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/statemachines/tests/subset.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/underscore/.npmignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/underscore/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/underscore/README" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/underscore/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/underscore/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/underscore/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/underscore/underscore-min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/underscore/underscore.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/stylesheets/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/stylesheets/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/index.pug" beforeDir="false" afterPath="$PROJECT_DIR$/views/index.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/layout.pug" beforeDir="false" afterPath="$PROJECT_DIR$/views/layout.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/login.pug" beforeDir="false" afterPath="$PROJECT_DIR$/views/login.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/register.pug" beforeDir="false" afterPath="$PROJECT_DIR$/views/register.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/users.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/users.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -328,47 +20,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="userIndex.pug" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/userIndex.pug">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="73" selection-start-line="21" selection-start-column="73" selection-end-line="21" selection-end-column="73" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="post.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/models/post.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="58" selection-start-line="10" selection-start-column="58" selection-end-line="10" selection-end-column="58" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="postController.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/controllers/postController.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="274">
-              <caret line="27" column="34" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/routes/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="36" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1039">
-              <caret line="103" column="31" selection-start-line="103" selection-start-column="31" selection-end-line="103" selection-end-column="31" />
+            <state relative-caret-position="255">
+              <caret line="50" column="36" lean-forward="true" selection-start-line="50" selection-start-column="36" selection-end-line="50" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="post.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/models/post.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -429,21 +94,22 @@
         <option value="$PROJECT_DIR$/node_modules/passport/lib/http/request.js" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/package-lock.json" />
-        <option value="$PROJECT_DIR$/routes/users.js" />
-        <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/public/stylesheets/style.css" />
         <option value="$PROJECT_DIR$/public/javascripts/main.js" />
         <option value="$PROJECT_DIR$/public/javascripts/textareaResize.js" />
         <option value="$PROJECT_DIR$/views/index.pug" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/controllers/userController.js" />
         <option value="$PROJECT_DIR$/views/layout.pug" />
         <option value="$PROJECT_DIR$/routes/posts.js" />
-        <option value="$PROJECT_DIR$/models/post.js" />
         <option value="$PROJECT_DIR$/controllers/postController.js" />
         <option value="$PROJECT_DIR$/views/userIndex.pug" />
         <option value="$PROJECT_DIR$/routes/index.js" />
+        <option value="$PROJECT_DIR$/routes/users.js" />
+        <option value="$PROJECT_DIR$/app.js" />
+        <option value="$PROJECT_DIR$/views/message.pug" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/models/post.js" />
       </list>
     </option>
   </component>
@@ -458,10 +124,10 @@
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="949" />
-    <option name="width" value="980" />
-    <option name="height" value="1031" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="948" />
+    <option name="width" value="981" />
+    <option name="height" value="1032" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -480,6 +146,11 @@
               <item name="social" type="b2602c69:ProjectViewProjectNode" />
               <item name="social" type="462c0819:PsiDirectoryNode" />
               <item name="bin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="social" type="b2602c69:ProjectViewProjectNode" />
+              <item name="social" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -546,7 +217,8 @@
       <workItem from="1529678926054" duration="594000" />
       <workItem from="1529855269139" duration="10823000" />
       <workItem from="1530363243552" duration="15055000" />
-      <workItem from="1530648226733" duration="3411000" />
+      <workItem from="1530648226733" duration="3655000" />
+      <workItem from="1530653043243" duration="908000" />
     </task>
     <task id="LOCAL-00001" summary="added readme">
       <created>1529548409859</created>
@@ -559,13 +231,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="78112000" />
+    <option name="totallyTimeSpent" value="79264000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="633" y="0" width="653" height="687" extended-state="0" />
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.36525974" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1391097" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -590,19 +262,19 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13831478" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="10" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info id="Favorites" order="3" side_tool="true" />
     </layout-to-restore>
   </component>
@@ -617,13 +289,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="added readme" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/views/userIndex.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="60" lean-forward="true" selection-start-line="19" selection-start-column="60" selection-end-line="19" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/controllers/userController.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="850">
@@ -800,13 +465,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/login_views/login.js" />
-    <entry file="file://$PROJECT_DIR$/views/login.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="68" selection-start-line="15" selection-start-column="68" selection-end-line="15" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/database.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -856,13 +514,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/users.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/javascripts/textareaResize.js" />
     <entry file="file://$PROJECT_DIR$/views/index.pug">
       <provider selected="true" editor-type-id="text-editor">
@@ -892,27 +543,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="68">
-            <caret line="4" column="78" selection-start-line="4" selection-start-column="78" selection-end-line="4" selection-end-column="78" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/controllers/userController.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="376">
           <caret line="90" column="2" lean-forward="true" selection-start-line="90" selection-start-column="2" selection-end-line="90" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/layout.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="37" column="32" lean-forward="true" selection-start-line="37" selection-start-column="32" selection-end-line="37" selection-end-column="32" />
         </state>
       </provider>
     </entry>
@@ -923,31 +557,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/models/post.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="58" selection-start-line="10" selection-start-column="58" selection-end-line="10" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/userIndex.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="73" selection-start-line="21" selection-start-column="73" selection-end-line="21" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/routes/posts.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" column="13" lean-forward="true" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/postController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="27" column="34" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="34" />
         </state>
       </provider>
     </entry>
@@ -958,10 +571,69 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/postController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="27" column="34" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/userIndex.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="73" selection-start-line="21" selection-start-column="73" selection-end-line="21" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/users.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/login.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="13" lean-forward="true" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/layout.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="37" column="32" lean-forward="true" selection-start-line="37" selection-start-column="32" selection-end-line="37" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="884">
+            <caret line="52" column="34" selection-start-line="52" selection-start-column="34" selection-end-line="52" selection-end-column="34" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/message.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="53" selection-start-line="3" selection-start-column="53" selection-end-line="3" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1039">
-          <caret line="103" column="31" selection-start-line="103" selection-start-column="31" selection-end-line="103" selection-end-column="31" />
+        <state relative-caret-position="255">
+          <caret line="50" column="36" lean-forward="true" selection-start-line="50" selection-start-column="36" selection-end-line="50" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/post.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
         </state>
       </provider>
     </entry>

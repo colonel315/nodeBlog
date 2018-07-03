@@ -16,7 +16,9 @@ router.post('/register', function(req, res, next) {
 
 // login form
 router.get('/login', (req, res) => {
-	res.render('login');
+	res.render('login', {
+		title: 'Login'
+	});
 });
 
 //login process

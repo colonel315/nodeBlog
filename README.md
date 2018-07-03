@@ -1,9 +1,6 @@
 # nodeBlog
 Creating a social media account using nodejs, expressjs, and pugjs.
 
-# Bugs to fix:
-connect-flash does not seem to be functioning at all. Does not flash messages.
-
 # Modules included:
 
 bcryptjs: ^2.4.3
@@ -48,3 +45,9 @@ Username and email must be unique
 Username must be at least 5 characters long
 
 Username and email must be unique
+
+# News Feed
+
+posts users first and last name along with users post underneath
+
+puts posts in ascending time order
