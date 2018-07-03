@@ -1,6 +1,9 @@
 # nodeBlog
 Creating a social media account using nodejs, expressjs, and pugjs.
 
+# Bugs to fix:
+connect-flash does not seem to be functioning at all. Does not flash messages.
+
 # Modules included:
 
 bcryptjs: ^2.4.3

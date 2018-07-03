@@ -87,5 +87,5 @@ function login(req, res, next) {
 
 module.exports = {
 	register: register,
-	login: login
+	login: login,
 };

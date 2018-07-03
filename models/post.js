@@ -4,11 +4,12 @@ Schema = mongoose.Schema;
 // User Schema
 const PostSchema = mongoose.Schema({
 	message: {
-		type: String
+		type: String,
+		required: true
 	},
-	user_id: {
-		type: {type: Schema.Types.ObjectId, ref: 'User'}
+	users: {
+		type: [{type: Schema.Types.ObjectId, ref: 'User'}],
 	}
 });
 
-let User = module.exports = mongoose.model('User', UserSchema);
+let post = module.exports = mongoose.model('Post', PostSchema);

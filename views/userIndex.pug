@@ -1,0 +1,23 @@
+extends layout
+
+block content
+    div.row
+        div.col-sm-11.col-md-11.col-lg-11
+            h3.h3= title
+            br
+            form(method='POST', action='/posts/add')
+                #form-group
+                    label Status:
+                    textarea.form-control(name='post')
+                br
+                input.btn.btn-primary(type="submit", value="Submit")
+    br
+    div.row
+        div.col-sm-11.col-md-11.col-lg-11
+            each post, i in posts
+                each user, i in users
+                    if post.users.toString() === user._id.toString()
+                        div
+                            br
+                            a(href='/profile/'+post.populate('user')._id) #{user.fname} #{user.lname}
+                            p(href='/posts/'+post._id)= post.message
